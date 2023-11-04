@@ -10,7 +10,7 @@ body{
 }
 
 .container{
-    width: 400px;
+    width: 30vw;
     padding: 25px 35px;
     position: absolute;
     top: 50%;
@@ -71,23 +71,29 @@ body{
 }
 
 .error{
+    
     animation: shake 0.1s linear 10;
 }
 
 @keyframes shake{
     0%{
+        border: 1px solid red;
         transform: translateX(0);
     }
     25%{
+        border: 1px solid red;
         transform: translateX(-2px);
     }
     50%{
+        border: 1px solid red;
         transform: translateX(0);
     }
     75%{
+        border: 1px solid red;
         transform: translateX(2px);
     }
     100%{
+        border: 1px solid red;
         transform: translateX(0);
     }
 
@@ -97,12 +103,11 @@ body{
 @media only screen and (max-width: 600px) {
 
     .container{
-        /* width: 90%; */
-        max-width: 600px;
+        width: 90vw;
+        /* max-width: 600px; */
         
 
-        padding: 25px 35px;
-        margin-top: 10%;
+        
                 
     }
     .container p{
